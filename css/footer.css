@@ -30,21 +30,6 @@
   color: #ffffff;
   text-decoration: none;
 }
-.footer-container a::before{
-  display: block;
-  content: "";
-  width: 48px;
-  height: 48px;
-  background: url("../img/instagram.svg") no-repeat center center;
-  position: absolute;
-  left: 620px;
-  bottom: 210px;
-}
-
-.footer-container a::before{
-  background: url("../img/instagram.svg") no-repeat center;
-}
-
 
 .footer-copy{
   font-size: 1.125rem;
@@ -61,6 +46,7 @@
   }
   .footer-contato{
     font-size: 1.5rem;
+    flex-wrap: wrap;
   }
   .footer-container a::before{
     content: none;
