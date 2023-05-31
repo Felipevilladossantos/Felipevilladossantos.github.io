@@ -21,7 +21,7 @@
 
 .footer-contato li{
   font-weight: bold;
-  font-size: 2.25rem;
+  font-size: 2.0rem;
   line-height: 1.1;
   color: #ffffff;
   margin-bottom: 30px;
@@ -49,7 +49,8 @@
     gap: 40px;
   }
   .footer-contato{
-    font-size: 1.5rem;
+    display: flex;
+    font-size: 1rem;
     flex-wrap: wrap;
   }
   .footer-container a::before{
@@ -59,12 +60,13 @@
 
 @media (max-width: 500px) {
   .footer-contato{
+    display: flex;
     flex-wrap: wrap;
     font-size: 0.5rem;
   }
   .footer-texto{
     flex-wrap: wrap;
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 }
 
