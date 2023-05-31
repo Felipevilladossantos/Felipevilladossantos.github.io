@@ -16,6 +16,7 @@
   font-size: 1.5rem;
   line-height: 1.33;
   color: #cccccc;
+  display: flex;
 }
 
 .footer-contato li{
@@ -24,11 +25,14 @@
   line-height: 1.1;
   color: #ffffff;
   margin-bottom: 30px;
+  display: flex;
+
 }
 
 .footer-contato li a {
   color: #ffffff;
   text-decoration: none;
+  display: flex;
 }
 
 .footer-copy{
@@ -52,5 +56,17 @@
     content: none;
   }
 }
+
+@media (max-width: 500px) {
+  .footer-contato{
+    flex-wrap: wrap;
+    font-size: 0.5rem;
+  }
+  .footer-texto{
+    flex-wrap: wrap;
+    font-size: 1rem;
+  }
+}
+
 
 
